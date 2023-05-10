@@ -13,6 +13,9 @@ if height >= 87:
     elif age < 18:
         bill = 100
         print("Cena vaseho listku je 100 Kc.")
+    elif age >= 40 and age <= 50: # doplneni podminky s logickym operatorem
+        #bill = 0
+        print("Dnes mate stastny den, jedete zdarma!")
     else:
         bill = 150
         print("Cena vaseho listku je 150 Kc.")
