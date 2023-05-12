@@ -21,17 +21,17 @@ if computer_choice == user_choice:
     print("Jedna se o remizu!")
 
 elif computer_choice == "kamen" and user_choice == "papir":
-    print("Vyhrali jste!")
+        print("Vyhrali jste!")
 elif computer_choice == "kamen" and user_choice == "nuzky":
     print("Prohrali jste :(.")
 
 elif computer_choice == "nuzky" and user_choice == "kamen":
     print("Vyhrali jste!")
 elif computer_choice == "nuzky" and user_choice == "papir":
-    print("Prhorali jste :(.")
+    print("Prohrali jste :(.")
 
 elif computer_choice == "papir" and user_choice == "nuzky":
     print("Vyhrali jste!")
 elif computer_choice == "papir" and user_choice == "kamen":
-    print("Prhorali jste :(.")
+    print("Prohrali jste :(.")
 
