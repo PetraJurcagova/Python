@@ -11,8 +11,8 @@ num_special_char = int(input("Kolik specialnich znaku chcete mit ve svem heslu?\
 
 promenna = []
 
-for index in range (0, letters_number):
-    #print(index)
+for nic in range (0, letters_number):
+    #print(nic)
     random_number = random.randint(0, len(letters)-1)
     promenna.append(letters[random_number])
 
@@ -28,7 +28,7 @@ print(promenna)
 #print(promenna[0])
 
 #prevod listu na string
-result = " " #pomoci prazdne promenne, kam se mi ma ukladat vysledek
+result = " " #pomoci prazdne promenne, prazdny string, kam se mi ma ukladat vysledek
 for index in promenna:
     #result = result + index
     result += index
