@@ -27,12 +27,30 @@ for blabla in range (0, num_special_char):
 print(promenna)
 #print(promenna[0])
 
+# nahodne zprehazeni hesla = delsi zpusob, nekde je chyba, nedari se spustit kod !
+#translator = " "
+#for index in range(0, 20):
+    #random_index_1 = random.randint(0, (len(promenna)-1))
+    #random_index_2 = random.randint(0, (len(promenna)-1))
+
+    #translator = promenna[random_index_2]
+    #promenna[random_index_2] = promenna[random_index_1]
+    #random_index_1 = translator
+#print(translator)
+
+# nahodne zprehazeni znaku pomoci shuffle, toto jiz funguje2
+random.shuffle(promenna)
+print(promenna)
+
+
 #prevod listu na string
 result = " " #pomoci prazdne promenne, prazdny string, kam se mi ma ukladat vysledek
 for index in promenna:
-    #result = result + index
-    result += index
+    result = result + index
+    #result += index
 print(result)
+
+
 
 
 
